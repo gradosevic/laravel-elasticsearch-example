@@ -76,7 +76,7 @@ class ElasticSearch
         ]);
     }
 
-    //TODO: Not the best way to delete. Check what API method should we use instead
+    //TODO: Not the best way to delete. Check what API method should be used instead
     /**
      * Deletes all records from Elasticsearch
      */
