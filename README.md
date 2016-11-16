@@ -25,7 +25,14 @@ An example of Laravel integration with Elasticsearch
 #App commands
 These commands could be useful for testing:
 
-#####`php artisan app --seed` - clears addresses table and seeds dummy addresses
-#####`php artisan app --index` - sends data from database to Elasticsearch
-#####`php artisan app --clear` - clears all data from addresses table and Elasticsearch
-#####`phpunit` - runs PHP tests
+Clears addresses table and seed dummy addresses
+#####`php artisan app --seed`
+
+Send data from database to Elasticsearch
+#####`php artisan app --index`
+
+Clear all data from addresses table and Elasticsearch
+#####`php artisan app --clear`
+
+Run PHP tests
+#####`phpunit`
